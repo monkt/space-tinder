@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="mocha/mocha.css">
+        <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+        <link rel="stylesheet" href="vendor/css/bootstrap-material-design-min.css">
+        <title>AT Image Tinder</title>
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <div id="main-region" class="container"></div>
+    </body>
+
+    <script src="vendor/underscore.min.js"></script>
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/backbone.min.js"></script>
+    <script src="vendor/marionette.min.js"></script>
+
+    <script src="scripts/at-tinder/config/app.js"></script>
+    <script src="scripts/at-tinder/config/render.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <script src="scripts/at-tinder/entities/image.js"></script>
+
+    <script src="scripts/at-tinder/modules/tinderimage/templates/layout.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/templates/nav.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/templates/tinder.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/templates/image.js"></script>
+
+    <script src="scripts/at-tinder/modules/tinderimage/views/layout.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/views/nav.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/views/tinder.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/views/gallery.js"></script>
+
+    <script src="scripts/at-tinder/modules/tinderimage/controller.js"></script>
+    <script src="scripts/at-tinder/modules/tinderimage/tinderimage.js"></script>
+
+    <script src="mocha/mocha.js"></script>
+    <script src="mocha/chai.js"></script>
+
+    <script>
+      mocha.setup('bdd');
+      mocha.reporter('html');
+      expect = chai.expect;
+    </script>
+
+    <script src="index.js"></script>
+
+    <script>
+      $(function () {
+        ATtinder.start();
+      });
+    </script>
+</html>

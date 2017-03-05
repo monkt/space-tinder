@@ -1,0 +1,35 @@
+{
+  "name": "sr-fe-wade",
+  "version": "1.0.0",
+  "description": "Tinder-style web app using images from Apartment Therapy House Tours.",
+  "main": "app.js.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apartmenttherapy/sr-fe-wade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apartmenttherapy/sr-fe-wade/issues"
+  },
+  "homepage": "https://github.com/apartmenttherapy/sr-fe-wade#readme",
+  "devDependencies": {
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-coffee": "^1.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eco": "0.0.2",
+    "gulp-mocha-phantomjs": "^0.12.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

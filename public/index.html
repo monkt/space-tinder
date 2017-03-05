@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.min.css">
+
+        <title>AT Image Tinder</title>
+    </head>
+    <body>
+        <div id="main-region" class="container"></div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.2/backbone.marionette.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.9/js/material.min.js"></script>
+
+    <!-- <script src="/bundle.js"></script> -->
+
+    <script src="/scripts/at-tinder/config/app.js"></script>
+    <script src="/scripts/at-tinder/config/render.js"></script>
+    <script src="/scripts/app.js"></script>
+    <!-- <script src="/scripts/at-tinder/components/msg_bus.js"></script> -->
+    
+    <script src="/scripts/at-tinder/entities/image.js"></script>
+    <!-- <script src="/scripts/at-tinder/entities/user.js"></script> -->
+
+    <script src="/scripts/at-tinder/modules/tinderimage/templates/layout.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/templates/nav.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/templates/tinder.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/templates/image.js"></script>
+
+    <script src="/scripts/at-tinder/modules/tinderimage/views/layout.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/views/nav.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/views/tinder.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/views/gallery.js"></script>
+
+    <script src="/scripts/at-tinder/modules/tinderimage/controller.js"></script>
+    <script src="/scripts/at-tinder/modules/tinderimage/tinderimage.js"></script>
+
+    <script>
+      $(function () {
+        ATtinder.start();
+      });
+    </script>
+</html>

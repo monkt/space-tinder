@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <div id="tinder" class="content tinder">
+    <a class="btn btn-lg btn-primary dislike pull-left" href="#" role="button">DISLIKE</a>
+    <a class="btn btn-lg btn-primary like pull-right" href="#" role="button">LIKE</a>
+    <img class="image img-thumbnail img-responsive" src="<%= @src + @id %>">
+  </div>
+  <div class="content loading">loading...</div>
+</div>

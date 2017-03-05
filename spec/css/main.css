@@ -1,0 +1,21 @@
+.container .header {
+  margin-top: 15px; }
+
+.container .jumbotron {
+  background-color: #ffffff;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto; }
+  .container .jumbotron .image {
+    margin: auto;
+    display: block; }
+  .container .jumbotron .gallery-image {
+    width: 33%;
+    float: left;
+    margin-bottom: 20px; }
+  .container .jumbotron .btn {
+    width: 49%;
+    margin-bottom: 10px; }
+  .container .jumbotron .loading {
+    display: none;
+    text-align: center;
+    font-size: 50px; }

@@ -1,0 +1,2 @@
+<img class="image img-thumbnail img-responsive"
+    src="<%= @src + @id %>?w=<%= @gallery_width %>&h=<%= @gallery_height %>">
